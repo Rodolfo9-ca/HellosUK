@@ -1,0 +1,44 @@
+.nav-enlace
+{
+    display: inline-block;
+    background: salmon ;
+    color: #fff;
+    padding: 10px 30px;
+    margin: 0px 3px;
+    text-decoration: none;
+}
+
+.nav-enlace:hover
+{
+    background: rosybrown;
+}
+
+nav
+{
+    background: #71c9ce;
+    padding: 10px;
+    display: flex ;
+   
+    justify-content: flex-end ;
+}
+
+.new-button
+{
+    background: salmon;
+    color: #fff;
+    padding: 10px 7px;
+    border: solid white;
+}
+
+@media (max-width: 2560px) {
+    .facet_sidebar {
+      display: none;
+    }
+    .nav-enlace{
+        display:inset-block;
+    }
+    .desaparece
+    {
+        display: none;
+    }
+  }

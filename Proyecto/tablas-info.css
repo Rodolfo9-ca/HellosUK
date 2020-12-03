@@ -1,0 +1,177 @@
+body
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+p
+{
+    font-weight: 400;
+}
+
+.tabla{
+    margin: 0 auto;
+    width: 95%;
+}
+
+.felx
+{
+    display: flex;
+}
+
+.text-center
+{
+    text-align: center;
+}
+
+.columna
+{
+    background: rgb(228,228,228);
+    color: #333;
+    border: 2px solid #333;
+    margin: 10px;
+    padding: 10px;
+    border-radius:10px;
+    box-shadow: 8px 8px 5px #888;
+}
+
+.precio
+{
+    font-size: 35px;
+    color: #00dca7;
+}
+
+.info-conocer
+{
+    background: salmon;
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-bottom:10px;
+    transition:all .5s ease-in-out;
+}
+
+.info-conocer:hover{
+    background: rgb(241, 63, 43);
+}
+
+body
+{
+    background-image: 
+    url(fondo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.fa
+{
+    transition: all 0.5s ease;
+}
+
+.fa:hover
+{
+    transform: scale(0.9);
+    
+}
+
+
+.fs
+{
+    transition: all 0.5s ease;
+}
+
+.fs:hover
+{
+    transform: scale(0.9);
+    
+}
+
+
+.fd
+{
+    transition: all 0.5s ease;
+}
+
+.fd:hover
+{
+    transform: scale(0.9);
+    
+}
+
+
+.ff
+{
+    transition: all 0.5s ease;
+}
+
+.ff:hover
+{
+    transform: scale(0.9);
+    
+}
+
+.contenedor
+{
+    display: flex;
+    width: 450px;
+    height: 22px;
+    color: black;
+    font-size: 20px;
+    line-height: 20px;
+
+    /* position: absolute; */
+    top: 10;
+    right: 5;
+    bottom: 5;
+    left: 5;
+    margin: auto;
+
+    overflow: hidden;
+}
+
+ul
+{
+    list-style: none;
+    padding-left: 5px;
+    animation: cambiar 7s infinite;
+}
+
+ul,p{
+    margin: 0;
+}
+
+@keyframes cambiar
+{
+    0%{margin-top: 0;}
+    10%{margin-top: 0;}
+
+    15%{margin-top: -20px;}
+    25%{margin-top: -20px;}
+
+    30%{margin-top: -20px;}
+    45%{margin-top: -20px;}
+
+    50%{margin-top: -40px;}
+    65%{margin-top: -40px;}
+
+    70%{margin-top: -60px;}
+    85%{margin-top: -60px;}
+
+    100%{margin-top:0;}
+
+}
+
+.big
+{
+    font-weight: 400;
+}

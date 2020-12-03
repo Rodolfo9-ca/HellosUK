@@ -1,0 +1,86 @@
+p {
+  color: black;
+  font-size: 20px;
+  margin: 10px;
+  font-family: "PT Sans", sans-serif;
+}
+
+h1 {
+  font-family: "Sriracha", cursive;
+  font-family: "Raleway", sans-serif;
+  font-family: "Merriweather", serif;
+}
+nav {
+  font-family: "Sriracha", cursive;
+  font-family: "Raleway", sans-serif;
+  font-family: "Merriweather", serif;
+}
+
+h1 {
+  color: #142850;
+}
+
+h2 {
+  color: blue;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+.negro {
+  color: black;
+  font-size: 42px;
+
+  margin: 30px 160px 30px 180px;
+
+  padding: 20px;
+}
+
+.fondo {
+  background: tomato;
+}
+
+b {
+  padding: 150;
+}
+
+button {
+  background: #5185e6;
+  color: #02090c;
+  transition: all 0.5s ease-in-out;
+}
+
+button:hover {
+  background: #10d4e2;
+}
+
+button:active {
+  background: #3c4245;
+}
+
+.centro {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+img {
+  transition: all 0.5s ease;
+}
+
+img:hover {
+  transform: scale(0.9);
+  border-radius: 25px;
+}
+
+body {
+  background-image: url(fondo.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  max-width: 1280px;
+  width: 90%;
+  margin: auto;
+}
